@@ -22,8 +22,8 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	flex-wrap: wrap;
 	min-height: 100px;
+	flex-wrap: nowrap;
 }
 svg.logo {
 	fill: #fff;
@@ -79,6 +79,13 @@ svg.logo {
 	}
 }
 
+@media screen and (max-width: 1024px) and (min-width: 320px) {
+	.main-head {
+		flex-wrap: wrap;
+	}
+}
+
+
 
 @media (min-width: 320px) {
 	.head-logo {
@@ -101,10 +108,28 @@ svg.logo {
 	}
 	.contacts {
 		text-align: center;
+		margin-bottom: 40px;
 	}
 		li {
 		width: 100%;
 		margin-bottom: 40px;
+	}
+	.head-section__content {
+		justify-content: center;
+		margin-bottom: 40px;
+	}
+	.head-section__content h1 {
+		font-size: 22px;
+		margin-bottom: 20px;
+	}
+	.head-section__content h2 {
+		font-size: 22px;
+	}
+	.head-section {
+		height: auto;
+	}
+	.head-section__content .wrap-section__content {
+    	margin-top: 0;
 	}
 }
 
