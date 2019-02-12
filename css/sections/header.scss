@@ -80,17 +80,20 @@ svg.logo {
 	}
 }
 .head-menu {
-	width: 80%;
+	width: 45%;
 	text-align: center;
 }
-// @media (min-width: 769px) {
-// 	.head-section__content h1 {
-// 		font-size: 48px;
-// 	}
-// 	.head-section__content h2 {
-// 		font-size: 37px;
-// 	}
-// }
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+	.head-section__content h1 {
+		font-size: 42px;
+	}
+	.head-section__content h2 {
+		font-size: 37px;
+	}
+	.head-menu {
+		width: 100%;
+	}
+}
 @media screen and (max-width: 768px) and (min-width: 320px) {
 	.main-head {
 		flex-wrap: wrap;
@@ -138,6 +141,7 @@ svg.logo {
 	.head-section__content .wrap-section__content {
     	margin-top: 0;
 	}
+	
 }
 
 
