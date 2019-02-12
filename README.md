@@ -1,1 +1,1 @@
-<!-- # <a href="#">АЗИМУТ-ДИЗЕЛЬ</a> -->
+# <a href="https://efekta.github.io/Asimut-Diesel/">АЗИМУТ-ДИЗЕЛЬ</a>
