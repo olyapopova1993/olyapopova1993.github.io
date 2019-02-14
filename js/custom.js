@@ -2,13 +2,13 @@
 		ymaps.ready(function(){
 	    // Указывается идентификатор HTML-элемента.
 	    var myMap = new ymaps.Map("my_map", {
-	        center: [51.64523849, 38.95769479],
-	        zoom: 13
+	        center: [51.64366779, 38.95649378],
+	        zoom: 15
 	    });
 	    // var myPlacemark = new ymaps.Placemark([51.64523849, 38.95769479], {
 	    // 	balloonContentHeader: '<img src="icons/placeholder@2x.png">'
 	    // });
-	    var myPlacemark = new ymaps.Placemark([51.64523849, 38.95769479], {}, {
+	    var myPlacemark = new ymaps.Placemark([51.64409499, 38.96516268], {}, {
     	iconLayout: 'default#image',
     	// iconImageClipRect: [[0,0], [26, 46]],
     	iconImageHref: 'icons/placeholder@2x.png',
