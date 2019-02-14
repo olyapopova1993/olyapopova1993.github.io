@@ -14,8 +14,9 @@
     	iconImageHref: 'icons/placeholder@2x.png',
     	iconImageSize: [38, 54]
     	// iconImageOffset: [-15, -27]
-});
+	});
 		myMap.geoObjects.add(myPlacemark);
+		myMap.behaviors.disable(['scrollZoom']);
 	});
   // ymaps.ready(init);
   // var myMap;
