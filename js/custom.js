@@ -1,6 +1,9 @@
 ;$(document).ready(function() {
+/*================================
+Карта
+=================================*/
 		ymaps.ready(function(){
-			
+
 	    var myMap = new ymaps.Map("my_map", {
 	        center: [51.64366779, 38.95649378],
 	        zoom: 15
@@ -15,4 +18,36 @@
 	});
 });
 
+/*================================
+Плавный скролл до якоря jquery
+=================================*/
+$("body").on('click', '[href*="#"]', function(e){
+	  var fixed_offset = 100;
+	  $('html,body').stop().animate({ scrollTop: $(this.hash).offset().top - fixed_offset }, 1000);
+	  e.preventDefault();
+	});
+
+
+/*========================
+ fixed header
+ =======================*/
+$(window).scroll(function() {
+	if($(this).scrollTop() >= 250) {
+	$('.main-head').addClass('main-head_fixed');
+}
+else{
+	$('.main-head').removeClass('main-head_fixed');
+	}
+});
+
+
+ /*========================
+mob nav
+=========================*/
+$(".menu-gamburger").on("click", function() {
+	$(".page-nav__list-mob").toggleClass('page-nav__list-mob_show');
+});
+$("#nav-icon").click(function(){
+	$(this).toggleClass("open");
+});
 
