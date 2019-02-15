@@ -119,6 +119,7 @@
     padding: 0 20px;
     background-color: rgba(17%, 20%, 22%, .78);
 }
+
 svg.logo {
 	fill: #fff;
 	width: 171px;
@@ -197,6 +198,9 @@ svg.logo {
 	}
 	.overlay {
 		height: 665px;
+	}
+	.main-head_fixed {
+		position: static;
 	}
 	// #nav-icon  {
 	// 	display: block;

@@ -40,16 +40,17 @@ else{
 	}
 });
 
-// if( window.innerWidth > 768 || window.screen.width > 768) {
+// if( window.innerWidth < 768 || window.screen.width < 768) {
 // 	$(window).scroll(function() {
-// 	if($(this).scrollTop() >= 250) {
-// 	$('.main-head').addClass('main-head_fixed');
-// }
-// else {
-// 	$('.main-head').removeClass('main-head_fixed');
-// }
-// }
-// }
+// 		if($(this).scrollTop() >= 250) {
+// 			$('.main-head').removeClass('main-head_fixed');
+// 			$('.main-head').addClass('main-head_no-fixed');
+// 		}
+// 		else {
+// 			$('.main-head').removeClass('main-head_no-fixed');
+// 		}
+// 	}
+// )}
 
 
 
