@@ -40,11 +40,19 @@ else{
 	}
 });
 
-// if( window.innerWidth > 720 || window.screen.width > 720){
+// if( window.innerWidth > 768 || window.screen.width > 768) {
+// 	$(window).scroll(function() {
+// 	if($(this).scrollTop() >= 250) {
+// 	$('.main-head').addClass('main-head_fixed');
+// }
+// else {
+// 	$('.main-head').removeClass('main-head_fixed');
+// }
+// }
+// }
 
-   
 
-// } else {}
+
  /*========================
 mob nav
 =========================*/
