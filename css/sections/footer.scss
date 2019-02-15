@@ -7,4 +7,28 @@
 	align-items: center;
 	justify-content: center;
 }
+#toTop {
+    width: 55px;
+    height: 55px;
+    position: fixed;
+    bottom: 120px;
+    right: 10px;
+    cursor: pointer;
+    display: none;
+    z-index: 99;
+    fill: #2b3237;
+}
+.up_click {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 40px;
+    height: 40px;
+    transform: translate(-50%, -50%);
+}
+@media screen and (max-width: 768px) and (min-width: 320px) {
+	#toTop {
+		display: block;
+	}
+}
 

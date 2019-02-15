@@ -11,7 +11,7 @@
     width: 23px;
     height: 18px;
     position: absolute;
-    top: 10%;
+    top: 15%;
     right: 5%;
     cursor: pointer;
     display: none;
@@ -84,8 +84,12 @@
     -o-transform: rotate(-45deg);
     -ms-transform: rotate(-45deg);
     transform: rotate(-45deg);
-    top: 17px;
+    top: 16px;
     left: 0;
+}
+#nav-icon.open {
+	top: 5%;
+	// right: 0;
 }
 .overlay {
 	position: absolute;
@@ -188,6 +192,12 @@ svg.logo {
 	.main-head {
 		flex-wrap: wrap;
 	}
+	.head-section {
+		min-height: 670px;
+	}
+	.overlay {
+		height: 665px;
+	}
 	#nav-icon  {
 		display: block;
 	}
@@ -196,6 +206,10 @@ svg.logo {
 		text-align: center;
 		margin-top: 30px;
 		margin-bottom: 10px;
+	}
+	svg.logo {
+    	width: 120px;
+    	height: 50px;
 	}
 	.page-nav__list-mob {
 		display: none;
@@ -212,20 +226,21 @@ svg.logo {
 	}
 	.menu-item {
 		display: block;
-		margin: 0 0 20px 0;
+		margin: 0 0 15px 0;
 		text-align: center;
 	}
 	.contacts {
 		text-align: center;
 		margin-bottom: 40px;
+		// display: none;
 	}
 		li {
 		width: 100%;
-		margin-bottom: 40px;
+		margin-bottom: 25px;
 	}
 	.head-section__content {
 		justify-content: center;
-		margin-bottom: 40px;
+		margin-bottom: 25px;
 	}
 	.head-section__content h1 {
 		font-size: 22px;

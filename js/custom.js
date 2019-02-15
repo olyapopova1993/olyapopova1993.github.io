@@ -8,7 +8,7 @@
 	        center: [51.64366779, 38.95649378],
 	        zoom: 15
 	    });
-	    var myPlacemark = new ymaps.Placemark([51.64409499, 38.96516268], {}, {
+	    var myPlacemark = new ymaps.Placemark([51.64366779, 38.95649378], {}, {
     	iconLayout: 'default#image',
     	iconImageHref: 'icons/placeholder@2x.png',
     	iconImageSize: [38, 54]
@@ -32,7 +32,7 @@ $("body").on('click', '[href*="#"]', function(e){
  fixed header
  =======================*/
 $(window).scroll(function() {
-	if($(this).scrollTop() >= 250) {
+	if($(this).scrollTop() >= 250){
 	$('.main-head').addClass('main-head_fixed');
 }
 else{
@@ -46,8 +46,31 @@ mob nav
 =========================*/
 $(".menu-gamburger").on("click", function() {
 	$(".page-nav__list-mob").toggleClass('page-nav__list-mob_show');
+	// $(".contacts").toggleClass('page-nav__list-mob_show');
 });
 $("#nav-icon").click(function(){
 	$(this).toggleClass("open");
 });
 
+/*========================
+scropp up
+ =======================*/
+$(window).scroll(function() {
+ 
+    if($(this).scrollTop() != 0) {
+ 
+        $('#toTop').fadeIn();
+ 
+    } else {
+ 
+        $('#toTop').fadeOut();
+ 
+    }
+ 
+});
+ 
+$('#toTop').click(function() {
+ 
+$('body,html').animate({scrollTop:0},800);
+ 
+});
