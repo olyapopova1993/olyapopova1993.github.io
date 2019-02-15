@@ -32,7 +32,7 @@ $("body").on('click', '[href*="#"]', function(e){
  fixed header
  =======================*/
 $(window).scroll(function() {
-	if($(this).scrollTop() >= 250){
+	if($(this).scrollTop() >= 250) {
 	$('.main-head').addClass('main-head_fixed');
 }
 else{
@@ -40,7 +40,11 @@ else{
 	}
 });
 
+// if( window.innerWidth > 720 || window.screen.width > 720){
 
+   
+
+// } else {}
  /*========================
 mob nav
 =========================*/
