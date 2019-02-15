@@ -44,13 +44,13 @@ else{
  /*========================
 mob nav
 =========================*/
-$(".menu-gamburger").on("click", function() {
-	$(".page-nav__list-mob").toggleClass('page-nav__list-mob_show');
-	// $(".contacts").toggleClass('page-nav__list-mob_show');
-});
-$("#nav-icon").click(function(){
-	$(this).toggleClass("open");
-});
+// $(".menu-gamburger").on("click", function() {
+// 	$(".page-nav__list-mob").toggleClass('page-nav__list-mob_show');
+// 	// $(".contacts").toggleClass('page-nav__list-mob_show');
+// });
+// $("#nav-icon").click(function(){
+// 	$(this).toggleClass("open");
+// });
 
 /*========================
 scropp up
